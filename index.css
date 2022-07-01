@@ -1,0 +1,112 @@
+@font-face {
+    src: url("Inter-ExtraLight.ttf");
+    font-family: Inter;
+    src: ult("Karla-ExtraBold.ttf");
+    font-family: Karla;
+}
+
+body {
+    background-color: #1F2937;
+    border: 30px solid #1C1C1C;
+    border-bottom: 2000px solid #1C1C1C;
+    margin: 0;
+    
+    
+
+}
+
+.h1p1 {
+    font-family: Karla;
+    color: white;
+    margin-left: 50px;
+    margin-bottom: 0px;
+    margin-top: 115px;
+    font-size: 40px;
+    line-height: 40px;
+
+}
+
+.h1p2 {
+    font-family: Karla;
+    color: #4ADF86;
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+    font-size: 40px;   
+    line-height: 40px;
+}
+
+h2 {
+    font-family: Inter;
+    opacity: 70%;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 35px;
+    color:  #5BCEA8;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+p {
+    font-family: Inter;
+    opacity: 70%;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 35px;
+    color:  #5BCEA8;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+#generate-btn {
+    border: 0;
+    margin-left: 50px;
+    border-radius: 4px;
+    background: #5BCEA8;
+    color: white;
+    width: 191px;
+    height: 42px;
+    
+}
+
+.diviser-line {
+    height: 1px;
+    width: 446px;
+    margin-top: 35px;
+    margin-left: 50px;
+    margin-bottom: 39px;
+    background: #2F3E53;
+}
+
+.bot-part {
+    margin-left: 50px;
+    text-align: start;
+    justify-content: flex-start;
+    display: flex;
+}
+
+#random-btn1 {
+    text-align: center;
+    margin-right: 12px;
+    background: #273549;
+    color: #55F991;
+    border: 0;
+    padding:12px 16px 1px 16px;
+    border-radius: 4px;
+    width: 180px;
+    height: 28px;
+}
+
+#random-btn2 {
+    text-align: center;
+    margin-left: 12px;
+    background: #273549;
+    color: #55F991;
+    padding:12px 16px 1px 16px;
+    border: 0;
+    border-radius: 4px;
+    width: 180px;
+    height: 28px;
+}

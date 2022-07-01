@@ -1,0 +1,23 @@
+<html>
+        <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Karla:wght@800&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="index.css">
+        </head>
+        <body>
+            <div class="top-part">
+                <h1 class="h1p1">Generate a</h1>
+                <h1 class="h1p2">random password</h1>
+                <h2> Never use an insecure password again.</h2>
+            </div>
+        <button id="generate-btn" onclick: "GeneratePW()">Generate passwords</button>
+        <div class="diviser-line"></div>
+            <div class="bot-part">
+                <div id="random-btn1" onclick="copy(this)"></div>
+                <div id="random-btn2" onclick="copy(this)"></div>
+            </div>
+                <p>Just click on a password to copy it to the clipboard.</p>
+                <script src="index.js"></script>
+        </body>
+</html>
